@@ -1,0 +1,193 @@
+body,h1,h2,h3,h4,h5,h6,a,span{
+    font-family: 'Work Sans', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+.jon-header span{
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
+    font-weight: 500;
+}
+.jon-btn:hover{
+    box-shadow: 3px 3px 27px -3px #6278df;
+}
+.navbar-brand p {
+    font-size:20px;
+    color: #010101;
+    margin-top: 10px;
+    
+}
+.jon-menu a{
+    color:#010101 ;
+    
+}
+.slider-section{
+    background: url(img/mbr-10.jpg) no-repeat center center;
+    padding: 200px 0px;
+    position: relative;
+    z-index: 1;
+}
+.slider-section::after{
+    content: "";
+    left: 0;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    
+    background: rgba(0, 0, 0, .4);
+    z-index: -1;
+
+}
+
+.slider-caption h4{
+    font-size: 1.6em;
+    font-weight: 300;
+}
+.slider-caption h2 {
+    font-size: 2.8em;
+    font-weight: 500;
+    margin-top: 34px;
+}
+.slider-caption .form-control {
+    padding: 11px;
+}
+.slider-caption .btn {
+    background: #5ba533;
+    font-weight: 600;
+}
+.slider-caption .btn:hover{
+    background-color: #fff;
+    border: 2px solid #6278df;
+    box-shadow: 0px 0px 20px 0 #6278df;
+    color: #6278df;
+}
+
+.about-section{
+    background-color: #f7f9ff;
+}
+.about-section p{
+    font-size: 1.3em;
+}
+.about-section h2 {
+    font-size: 2.8em;
+
+}
+/* Feature-section */
+
+
+.feature-heading h2{
+    font-size: 2.8em;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.feature-items {
+    height: 200px;
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 10%);
+}
+.feature-img{
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0px 0px 5px;
+}
+.feature-text-right{
+    width: 60%;
+    padding: 25px;
+}
+.feature-img img {
+    height: 100%;
+    width: auto!important;
+    max-width: inherit;
+    position: relative;
+    margin-left: -68px;
+}
+.feature-text-right h4 {
+    font-size: 18px;
+}
+.feature-text-right p {
+    font-size: 14px;
+    font-weight: 300;
+}
+.portfulio-item{
+   
+}
+.portfulio-item {
+    position: relative;
+}
+.portfulio-item a::after{
+    content: "";
+    left: 0;
+    top: 0;
+    position: absolute ;
+    background: rgba(101, 122, 223, .6);
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    visibility:hidden;
+    transition: .5s;
+}
+.portfulio-item:hover a::after{
+    opacity: 1;
+    visibility: visible;
+}
+.starter-section{
+    background-color: #f7f9ff;
+}
+.starter-items{
+    background-color: #fff;
+}
+.starter-list  li span {
+    width: 46px;
+    display: inline-block;
+    margin-top: 8px;
+    color: #0675c8;
+    font-size: 25px;
+}
+.starter-heading span {
+    font-size: 73px;
+    color: #efefef;
+}
+.starter-heading p{
+    
+}
+.author-info img {
+    width: 60px;
+    height: 60px;
+    margin-right: 14px;
+}
+.author-info{
+    width: 250px;
+}
+.user-info {
+    position: relative;
+    top: 6px;
+    text-align: left;
+}
+.history{
+    background-color: #f7f9ff;
+}
+.team img {
+    width: 120px;
+    height: 120px;
+    margin-top: -61px;
+    margin-left: 15px;
+}
+.team{
+    background-color: #f7f9ff;
+}
+.team-member{
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 10%);
+}
+.contact-form {
+    background-color: #fff;
+    padding: 54px;
+}
+.contact-form input {
+    padding: 20px;
+}
